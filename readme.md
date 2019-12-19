@@ -133,7 +133,9 @@ python test_audio.py
 # 5. Usage
 
 ## 5.1 GUI tool
-The script `record_audio_gui.py` shows a GUI figure with the spectrogram, volume, the estimated class probabilities and buttons to stop and start storing the audio files.
+The script `record_audio_gui.py` shows a GUI figure with the spectrogram, volume, the estimated class probabilities and buttons to stop and start storing the audio files:
+
+![GUI tool screenshot](images/gui_screenshot.jpg)
 
 When storing sounds, it will only store sounds if the peak volume exceeds the set threshold. It also stores additional information about the file in a json file included in the store folder.
 
@@ -149,7 +151,7 @@ With
 
 This script is quite demanding for small devices like a raspberry pi. It is adviced to start with this script to test if the audio is working and to choose a suitable volume threshold for storing sounds and then use the next script to start a longer recording:
 
-## 5.2 GUI tool
+## 5.2 CLI tool
 The script `record_audio_cli.py` does the same but without a GUI window. Usage:
 
 ```
