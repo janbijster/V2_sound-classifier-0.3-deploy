@@ -1,4 +1,4 @@
-# Installing the repo on a fresh raspberry pi 3B+
+# V2 Sound Classifier v0.3 - Deploying the model on a Raspberry PI
 Note: the steps below were taken on a Raspberry Pi 3 Model B+ with a fresh Raspbian Buster installation.
 
 ## 1. OS
